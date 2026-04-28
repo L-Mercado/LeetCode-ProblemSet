@@ -64,7 +64,7 @@ int main() {
 
     
     cout << "Example 1:" << endl;
-    int array1[] = { 5, 5, 3, 4, 1, 9, 2 };
+    int array1[] = { 1, 2, 2, 3, 4, 5, 6 };
     int size1 = sizeof(array1) / sizeof(array1[0]);
 
     ListNode* list1 = createList(array1, size1);
@@ -81,7 +81,7 @@ int main() {
 
    
     cout << "Example 2:" << endl;
-    int array2[] = { 3, 3, 3, 1, 2, 5 };
+    int array2[] = { 1, 2, 3, 4, 4, 5 };
     int size2 = sizeof(array2) / sizeof(array2[0]);
 
     ListNode* list2 = createList(array2, size2);
